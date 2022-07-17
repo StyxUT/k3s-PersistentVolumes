@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata: 
-  name: synology-video
+  name: synology-media
 spec:
   capacity:
     storage: 5000Gi
@@ -16,4 +16,4 @@ spec:
     - nfsvers=4.1
   nfs:
     server: synology.home
-    path: "/volume1/video"
+    path: "/volume1/data/media"
