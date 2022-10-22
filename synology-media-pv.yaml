@@ -8,7 +8,7 @@ spec:
     storage: 5000Gi
   volumeMode: Filesystem
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   storageClassName: synology
   persistentVolumeReclaimPolicy: Retain
   mountOptions:
