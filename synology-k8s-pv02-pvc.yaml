@@ -2,13 +2,13 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: synology-k8s-pv02 
+  name: synology-k8s-pv02
   namespace: default
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: synology-iscsi
+  storageClassName: synology
   resources:
     requests:
-      storage: 800Gi
+      storage: 5000Gi
 
